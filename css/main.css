@@ -1,0 +1,202 @@
+/* Colors /*
+#4B9CD3 - web carolina blue
+#007FAE - link blue
+#13294B - athletics navy
+#E1E1E1 - light gray
+#767676 - dark gray
+#151515 - black
+
+
+
+/*** sectioning elements ***/
+
+
+body {
+  font-size: 24px;
+  color: #E1E1E1;
+  font-family: 'Teko', sans-serif;
+
+}
+
+header {
+  background-color: #007FAE;
+}
+
+main {
+
+}
+
+footer {
+  background-color: #007FAE;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+  color: #ffffff;
+  margin: 0;
+  text-align: left;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 70px;
+}
+
+.tagline {
+  display: block;
+  text-align: left;
+  color: #13294B;
+  font-family: 'Teko', sans-serif;
+  font-size: 22px;
+
+}
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+text-align: center;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+max-width: 100%;
+}
+
+
+
+/*** link styles ***/
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+/* Custum Odin Overrides */
+
+.navbar {
+   background-color: #E1E1E1;
+}
+
+.navbar-brand {
+   color: #ffffff;
+}
+
+.navbar-brand a:link,
+.navbar-brand a:visited {
+
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:active {
+
+}
+
+.navbar-menu a:link,
+.navbar-menu a:visited {
+   color: #13294B;
+   font-size: 20px;
+   font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.navbar-menu a:hover,
+.navbar-menu a:active {
+
+}
+
+.navbar-menu.menu-shown {
+   background-color: #13294B;
+}
+
+.menu-toggle {
+   color: #007FAE;
+}
+
+.menu-dismiss {
+   color: #ffffff;
+}
+
+.menu-shown a:link,
+.menu-shown a:visited {
+   color: #ffffff;
+   font-size: 22px;
+   font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+.menu-shown a:active,
+.menu-shown a:hover {
+
+}
