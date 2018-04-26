@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Teko" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,6 +33,7 @@
     </div>
   </header>
     <nav class="navbar navbar-slideout-md navbar-spread">
+      <div class="container-lg">
           <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
           <div class="navbar-menu">
             <button class="menu-dismiss" aria-label="Dismiss navigation">&times;</button>
@@ -45,26 +48,67 @@
               <li><a href="#"><b>Calendar</b></a></li>
             </ul>
           </div>
+        </div>
         </nav>
   <main>
-    <div class="container-xl">
+    <div class="container-lg">
       <div class="row">
         <div class="col-xs-12">
-          things
+          <div id="carousel">
+            <div class="owl-carousel owl-theme">
+              <div><img src="img/school.jpg" alt="Students working"></div>
+              <div><img src="img/love-soccer.jpg" alt="Girls Soccer Team"></div>
+              <div><img src="img/teachergood.jpg" alt="Teacher Teaching"></div>
+              <div><img src="img/huddle.jpg" alt="Mens Soccer Team"></div>
+              <div><img src="img/training.jpg" alt="Mens Soccer Training"></div>
+            </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="border">
+          <h2><b>Our Mission</b></h2>
+          <p> At Sitka we value Academics as well as the beautiful sport of soccer. We are a private organization and those who wish to attend Sitka must be accepted by the application process. We house students from 9th-12th grade and provide all living spaces and food. Boys and girls are seperated everywhere besides the classroom. From 8 o'clock to 11 o'clock classes are in session, from 11:15 to 2 o'clock there can be anything from weight training, practice, games, tape watching, or team building.</p>
+        </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <img class="links" src="img/grade.png" alt="">
+          <img class="links" src="img/menu.png" alt="">
+          <img class="links" src="img/schedules.png" alt="">
+          <img class="links" src="img/courses.png" alt="">
+      </div>
+   </div>
+
 
       <div class="row">
-        <div class="col-xs-12 col-md-6 col-lg-3">Column 1</div>
-        <div class="col-xs-12 col-md-6 col-lg-3">Column 2</div>
-        <div class="col-xs-12 col-md-6 col-lg-3">Column 3</div>
-        <div class="col-xs-12 col-md-6 col-lg-3">Column 4</div>
-      </div>
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2170.687782959272!2d-135.26595104894986!3d57.03976789937414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54045d5bee1f16af%3A0x5234020ab7c68644!2sBlueberry+Ln%2C+Sitka%2C+AK+99835!5e0!3m2!1sen!2sus!4v1524235670893" width="800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <div class="border">
+            <h2><b>Upcoming Events</b></h2>
+            <ul>
+              <li>April 24th - Boys Elite Soccer game 7:00 @ home</li>
+              <li>April 28 - Prom 7:30</li>
+              <li>May 1st - Girls Elite Soccer game 7:00 @ J.L. Mann</li>
+              <li>May 3 - SAT precoding</li>
+              <li>May 7 - ACT precoding</li>
+              <li>May 24 -  SAT 12:00</li>
+              <li>May 30 - ACT 1:00</li>
+              <li>June 10 - Last day of class</li>
+              <li>June 17 - Report cards</li>
+              <li>August 31 - Freshman day</li>
+              <li>September 3 - First day of school</li>
+            </ul>
+          </div>
+        </div>
     </div>
   </main>
 
   <footer>
-    <div class="container-xl">
+    <div class="container-lg">
       <div class="row">
         <div class="col-xs-12 col-md-4">
           <form class="pure-form pure-form-stacked" action="thanks.html" method="post">
@@ -89,8 +133,23 @@
   </footer>
 
   <!-- include any javascript below this line -->
-  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="js/odin-0.7.1.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+   <script>
+     $(document).ready(function(){
+       $('.owl-carousel').owlCarousel({
+           autoplay: true,
+           autoplayTimeout: 3000,
+           autoplayHoverPause: true,
+           dots: true,
+           items: 1,
+           loop: true,
+           margin: 20,
+           nav: false
+       })
+     });
+   </script>
 
 
 </body>
