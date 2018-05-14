@@ -1,0 +1,393 @@
+/* Colors /*
+#4B9CD3 - web carolina blue
+#007FAE - link blue
+#13294B - athletics navy
+#E1E1E1 - light gray
+#767676 - dark gray
+#151515 - black
+
+
+
+/*** sectioning elements ***/
+
+
+body {
+  font-size: 24px;
+  color: #E1E1E1;
+  font-family: 'Teko', sans-serif;
+  line-height: 1.5;
+
+
+}
+
+header {
+  background-color: #007FAE;
+}
+
+main {
+
+}
+
+footer {
+  background-color: #007FAE;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+  color: #ffffff;
+  margin: 0;
+  text-align: left;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 70px;
+}
+
+.tagline {
+  display: block;
+  text-align: left;
+  color: #13294B;
+  font-family: 'Teko', sans-serif;
+  font-size: 22px;
+
+}
+h2 {
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #007FAE;
+}
+
+h2.staff {
+  font-size: 60px;
+}
+
+h2.cosmetology {
+  font-size: 35px;
+  font-family: 'Abril Fatface', cursive;
+  color: #FC47B8;
+}
+
+h2.about {
+  font-size: 35px;
+  font-family: 'Abril Fatface', cursive;
+  color: #FD8FE5;
+}
+
+h2.course {
+  font-size: 35px;
+  font-family: 'Abril Fatface', cursive;
+  color: #FD8FE5;
+}
+
+h2.myhead {
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+h2.fartface {
+  font-size: 35px;
+}
+
+h2.life {
+  font-size: 35px;
+}
+
+h2.intro {
+  font-size: 35px;
+}
+
+h2.main {
+  font-size: 50px;
+  color: #13294B;
+  font-weight: bold;
+}
+
+h2.school {
+  font-size: 59px;
+  font-weight: bold;
+}
+h3 {
+ text-align: center;
+}
+
+h3.beauty {
+  font-size: 35px;
+  font-family: 'Abril Fatface', cursive;
+  color: #7504A7;
+}
+
+h3.nails {
+  font-size: 35px;
+  font-family: 'Abril Fatface', cursive;
+  color: #7504A7;
+}
+
+h3.hair {
+  font-size: 35px;
+  font-family: 'Abril Fatface', cursive;
+  color: #7504A7;
+}
+
+h3.subjects {
+  font-size: 40px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #007FAE;
+  font-weight: bold;
+}
+
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+  text-align: center;
+  color: #13294B;
+}
+p.about{
+  text-align: left;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+  color: #13294B;
+}
+p.beauty {
+  text-align: left;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+  color: #13294B;
+}
+p.nails {
+  text-align: left;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+  color: #13294B;
+}
+p.hair {
+  text-align: left;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+  color: #13294B;
+}
+p.academics {
+  font-size: 30px;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+  list-style: none;
+   margin: 0;
+   padding: 0;
+   color: #13294B;
+   text-align: center;
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+div#carousel {
+  grid-area: carousel;
+  overflow: hidden;
+}
+div.border {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #767676;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content{
+  text-align: center;
+
+}
+
+/*** image styles ***/
+
+img  {
+max-width: 100%;
+}
+
+img.right{
+  float: right;
+}
+
+img.links{
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+img.links:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img.dog{
+margin-left: 75px;
+margin-right: 75px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+
+
+/*** link styles ***/
+iframe{
+  max-width: 100%;
+}
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+/* Custum Odin Overrides */
+
+.navbar {
+   background-color: #E1E1E1;
+}
+
+.navbar-brand {
+   color: #ffffff;
+}
+
+.navbar-brand a:link,
+.navbar-brand a:visited {
+
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:active {
+
+}
+
+.navbar-menu a:link,
+.navbar-menu a:visited {
+   color: #13294B;
+   font-size: 20px;
+   font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.navbar-menu a:hover,
+.navbar-menu a:active {
+
+}
+
+.navbar-menu.menu-shown {
+   background-color: #13294B;
+}
+
+.menu-toggle {
+   color: #007FAE;
+}
+
+.menu-dismiss {
+   color: #ffffff;
+}
+
+.menu-shown a:link,
+.menu-shown a:visited {
+   color: #ffffff;
+   font-size: 22px;
+   font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+.menu-shown a:active,
+.menu-shown a:hover {
+
+}
+
+@media (min-width: 500px){
+  h2.cosmetology {
+      font-size: 60px;
+}
+h2.about {
+  font-size: 50px;
+}
+
+
+h2.course {
+  font-size: 50px;
+}
+}
+
+@media (min-width: 500px){
+  h2.myhead {
+      font-size: 60px;}
+
+  h2.fartface {
+      font-size: 50px;
+      }
+
+  h2.intro {
+    font-size: 50px;
+  }
+  h2.life {
+    font-size: 50px;
+  }
+
+
+}
