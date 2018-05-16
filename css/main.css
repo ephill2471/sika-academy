@@ -91,7 +91,7 @@ h2.course {
   color: #FD8FE5;
 }
 
-h2.myhead{
+h2.myhead {
   text-align: center;
   font-size: 40px;
   margin: 0px;
@@ -99,36 +99,55 @@ h2.myhead{
   margin-top: 12px;
 }
 
-h2.fartface{
-  font-size: 35px;
-}
-h2.life{
+h2.fartface {
   font-size: 35px;
 }
 
-h2.intro{
+h2.life {
   font-size: 35px;
+}
+
+h2.intro {
+  font-size: 35px;
+}
+
+h2.main {
+  font-size: 50px;
+  color: #13294B;
+  font-weight: bold;
+}
+
+h2.school {
+  font-size: 59px;
+  font-weight: bold;
 }
 h3 {
  text-align: center;
 }
 
-h3.beauty{
+h3.beauty {
   font-size: 35px;
   font-family: 'Abril Fatface', cursive;
   color: #7504A7;
 }
 
-h3.nails{
+h3.nails {
   font-size: 35px;
   font-family: 'Abril Fatface', cursive;
   color: #7504A7;
 }
 
-h3.hair{
+h3.hair {
   font-size: 35px;
   font-family: 'Abril Fatface', cursive;
   color: #7504A7;
+}
+
+h3.subjects {
+  font-size: 40px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #007FAE;
+  font-weight: bold;
 }
 
 
@@ -175,6 +194,9 @@ p.hair {
   line-height: 1.5;
   font-family: 'Raleway', sans-serif;
   color: #13294B;
+}
+p.academics {
+  font-size: 30px;
 }
 
 blockquote {
